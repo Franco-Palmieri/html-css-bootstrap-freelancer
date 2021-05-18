@@ -1,10 +1,15 @@
 .contenitore-altezza{
     height: 300px;
-    border: 1px solid greenyellow;
+    background-color: greenyellow;
+}
+.container{
+    border: 3px solid salmon;
+}
+.container-fluid{
+    border: 1px solid blue;
 }
 .row{
     border: 2px solid red;
-    height: 300px;
 }
 .col{
     border: 2px solid blue;
@@ -21,4 +26,11 @@
 .subtitle{
     display: flex;
     justify-content: center;
+}
+.title-picture{
+    text-align: center;
+}
+.foto{
+    border: 1px solid green;
+    text-align: center;
 }
