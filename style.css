@@ -34,3 +34,21 @@
     border: 1px solid green;
     text-align: center;
 }
+.box-about{
+    background-color: greenyellow;
+}
+.about{
+    text-align: center;
+}
+.about-text{
+    border: 1px solid black;
+}
+.button-download{
+    text-align: center;
+}
+.contact-title{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
