@@ -1,10 +1,24 @@
-.container{
-    border: 2px solid green;
-    background-color: greenyellow;
+.contenitore-altezza{
+    height: 300px;
+    border: 1px solid greenyellow;
 }
 .row{
     border: 2px solid red;
+    height: 300px;
 }
 .col{
     border: 2px solid blue;
+}
+.man-picture{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
 }
