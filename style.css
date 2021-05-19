@@ -1,10 +1,25 @@
+/* MODIFICA DELLA NAV */
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+li.nav-item{
+    color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    border-color: #fff
+}
 .bg-green{
     background-color: rgb(22, 255, 166);
+    margin-bottom: 50px;
 }
 .header-content{
     text-align: center;
     padding: 50px 0;
     color: white;
+    margin-top: 50px;
 }
 .jumbo{
     width: 250px;

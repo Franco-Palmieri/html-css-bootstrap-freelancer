@@ -10,7 +10,28 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid bg-green">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#start">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <header class="container-fluid bg-green" id="start">
         <div class="header-content">
                 <img class="jumbo" src="./img/avatar.svg">
             <div class="title">
@@ -21,10 +42,10 @@
             </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container" id="portfolio">
         <div class="row">
             <div class="title-picture col-12">
-                <h1>Portfolio</h1>
+                <h2>PORTFOLIO</h2>
             </div>
             <div class="foto col-12 col-sm-6 col-md-4">
                 <div class="box-picture cabin">
@@ -55,16 +76,15 @@
                 <div class="box-picture">
                     <img src="./img/submarine.png" alt="">
                 </div>
-            </div>
-                        
+            </div>                        
         </div>
     </div>
-    <div class="container-fluid bg-green">
+    <div class="container-fluid bg-green"id="about">
         <div class="row">
             <div class="about-content col-8 offset-2">
                 <div class="row">
                     <div class="about-title col-12">
-                        <h1>ABOUT</h1>
+                        <h2>ABOUT</h2>
                     </div>
                     <div class="about-text-container col-12 col-sm-6">
                         <div class="about-text-content">
@@ -94,7 +114,7 @@
             </div>
         </div>    
     </div>
-    <form class="container">
+    <form class="container" id="contact">
         <div class="row justify-content-center">
             <div class="contact col-12">
                 <div class="contact-title">
