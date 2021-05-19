@@ -1,12 +1,15 @@
-.contenitore-altezza{
-    height: 300px;
-    background-color: greenyellow;
-}
 .container{
     border: 3px solid salmon;
 }
 .container-fluid{
     border: 1px solid blue;
+}
+header{
+    background-color: greenyellow;
+}
+.header-content{
+    text-align: center;
+    padding: 50px 0;
 }
 .row{
     border: 2px solid red;
@@ -19,20 +22,16 @@
     height: 100px;
     border: 2px solid black;
 }
-.title{
-    display: flex;
-    justify-content: center;
-}
-.subtitle{
-    display: flex;
-    justify-content: center;
-}
+
 .title-picture{
     text-align: center;
 }
+.box-picture{
+    height: 200px;
+    background-color: red;
+}
 .foto{
     border: 1px solid green;
-    text-align: center;
 }
 .box-about{
     background-color: greenyellow;
