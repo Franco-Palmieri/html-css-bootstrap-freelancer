@@ -1,22 +1,15 @@
-.container{
-    border: 3px solid salmon;
-}
-.container-fluid{
-    border: 1px solid blue;
-}
 .bg-green{
-    background-color: greenyellow;
+    background-color: rgb(22, 255, 166);
 }
 .header-content{
     text-align: center;
     padding: 50px 0;
+    color: white;
 }
-.row{
-    border: 2px solid red;
+.jumbo{
+    width: 250px;
 }
-.col{
-    border: 2px solid blue;
-}
+
 .man-picture{
     width: 100px;
     height: 100px;
@@ -28,8 +21,13 @@
 }
 .box-picture{
     height: 260px;
+    height: 260px;
     background-color: red;
     margin-bottom: 24px;
+}
+.box-picture img{
+    width: 100%;
+    height: 100%;
 }
 .about-content{
     padding: 50px 0;
@@ -39,11 +37,16 @@
     text-align: center;
     margin-bottom: 24px;
 }
-.about-text-container{
-    border: 1px solid black;
-}
 .button-download{
     text-align: center;
+}
+.btn-success {
+    color: #fff;
+    background-color: rgb(22, 255, 166);
+    border-color: #ffffff;
+}
+form{
+    margin-bottom: 40px;
 }
 form input{
     border: 0;
@@ -55,6 +58,7 @@ textarea{
     width: 100%;
     border: 0;
     border-bottom: 1px solid #ccc;
+    padding: 20px;
 }
 .contact-title{
     text-align: center;
@@ -62,4 +66,22 @@ textarea{
 
 footer{
     text-align: center;
+    color: white;
+}
+.footer-content{ 
+    padding: 30px;
+    background-color: rgb(52, 52, 105);
+}
+.around-content a i{
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+}
+.foot-link a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.foot-bar{
+    background-color: rgb(34, 34, 51);
+    padding: 30px;
 }
