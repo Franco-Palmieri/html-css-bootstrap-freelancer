@@ -27,7 +27,7 @@
     margin-bottom: 24px;
 }
 .box-picture{
-    height: 200px;
+    height: 260px;
     background-color: red;
     margin-bottom: 24px;
 }
@@ -45,9 +45,21 @@
 .button-download{
     text-align: center;
 }
+form input{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 20px;
+}
+textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
 .contact-title{
     text-align: center;
 }
+
 footer{
     text-align: center;
 }
