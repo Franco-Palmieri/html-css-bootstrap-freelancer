@@ -4,7 +4,7 @@
 .container-fluid{
     border: 1px solid blue;
 }
-header{
+.bg-green{
     background-color: greenyellow;
 }
 .header-content{
@@ -22,24 +22,24 @@ header{
     height: 100px;
     border: 2px solid black;
 }
-
 .title-picture{
     text-align: center;
+    margin-bottom: 24px;
 }
 .box-picture{
     height: 200px;
     background-color: red;
+    margin-bottom: 24px;
 }
-.foto{
-    border: 1px solid green;
+.about-content{
+    padding: 50px 0;
+    color: white;
 }
-.box-about{
-    background-color: greenyellow;
-}
-.about{
+.about-title{
     text-align: center;
+    margin-bottom: 24px;
 }
-.about-text{
+.about-text-container{
     border: 1px solid black;
 }
 .button-download{
